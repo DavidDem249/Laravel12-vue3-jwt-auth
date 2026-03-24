@@ -51,7 +51,7 @@ Une architecture propre et scalable
 - MySQL	Base de données
 
 🔐 Flux d’authentification
-![alt text](mermaid-diagram.png)
+![alt text](flux-auth.png)
 ### Cas d’usage
 - Formation aux API sécurisées
 - Base pour projet SaaS
