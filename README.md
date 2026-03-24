@@ -18,36 +18,37 @@ Une architecture propre et scalable
  - Sécuriser les routes API avec gestion des accès
  - Concevoir une SPA consommant des API sécurisées
  - Mettre en place une architecture claire Backend ↔ Frontend
-📚 Servir de base pédagogique pour la formation aux API sécurisées
-⚙️ Fonctionnalités principales
-🔐 Backend — Laravel API
-✅ Inscription utilisateur
-🔑 Connexion avec génération de token JWT
-🔄 Rafraîchissement du token
-🚪 Déconnexion sécurisée (invalidation du token)
-🛡️ Middleware de protection des routes
-⚠️ Gestion des erreurs & accès non autorisés
-💻 Frontend — Vue.js SPA
-📝 Formulaires d’inscription & connexion
-💾 Stockage et gestion du token JWT
-🔁 Intercepteurs HTTP (Axios)
-👤 Gestion de session utilisateur
-🔒 Routes protégées (Auth Guard)
-🔗 Communication sécurisée avec l’API Laravel
-🧠 Concepts clés
-🔐 Authentification JWT (stateless)
-🌐 API REST sécurisées
-🧩 Gestion de session côté client
-⚡ Architecture SPA
-🔄 Séparation des responsabilités (Backend / Frontend)
-🛡️ Bonnes pratiques de sécurité (tokens, headers, middleware)
-🛠️ Stack technique
-Technologie	Rôle
-🧱 Laravel	Backend API REST
-🔐 JWT Auth	Authentification (tymon/jwt-auth ou équivalent)
-⚡ Vue.js	Frontend SPA
-🔗 Axios	Communication API
-🗄️ MySQL	Base de données
+ - 📚 Servir de base pédagogique pour la formation aux API sécurisées
+ - ⚙️ Fonctionnalités principales
+ - 🔐 Backend — Laravel API
+ - ✅ Inscription utilisateur
+ - 🔑 Connexion avec génération de token JWT
+ - 🔄 Rafraîchissement du token
+ - 🚪 Déconnexion sécurisée (invalidation du token)
+ - 🛡️ Middleware de protection des routes
+ - ⚠️ Gestion des erreurs & accès non autorisés
+ - 💻 Frontend — Vue.js SPA
+ - 📝 Formulaires d’inscription & connexion
+ - 💾 Stockage et gestion du token JWT
+ - 🔁 Intercepteurs HTTP (Axios)
+ - 👤 Gestion de session utilisateur
+ - 🔒 Routes protégées (Auth Guard)
+ - 🔗 Communication sécurisée avec l’API Laravel
+ - 🧠 Concepts clés
+ - 🔐 Authentification JWT (stateless)
+ - 🌐 API REST sécurisées
+ - 🧩 Gestion de session côté client
+ - ⚡ Architecture SPA
+ - 🔄 Séparation des responsabilités (Backend / Frontend)
+ - 🛡️ Bonnes pratiques de sécurité (tokens, headers, middleware)
+ - 🛠️ Stack technique
+
+### Technologie	Rôle
+- Laravel	Backend API REST
+- JWT Auth	Authentification (tymon/jwt-auth ou équivalent)
+- Vue.js	Frontend SPA
+- Fetch	Communication API
+- MySQL	Base de données
 
 🔐 Flux d’authentification
 
