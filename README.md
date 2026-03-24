@@ -14,10 +14,10 @@ La sécurisation des endpoints API
 La communication sécurisée entre un backend Laravel et un frontend Vue.js
 Une architecture propre et scalable
 ### 🎯 Objectifs
-🔐 Implémenter une authentification JWT stateless
-🛡️ Sécuriser les routes API avec gestion des accès
-💻 Concevoir une SPA consommant des API sécurisées
-🧱 Mettre en place une architecture claire Backend ↔ Frontend
+ - Implémenter une authentification JWT stateless
+ - Sécuriser les routes API avec gestion des accès
+ - Concevoir une SPA consommant des API sécurisées
+ - Mettre en place une architecture claire Backend ↔ Frontend
 📚 Servir de base pédagogique pour la formation aux API sécurisées
 ⚙️ Fonctionnalités principales
 🔐 Backend — Laravel API
