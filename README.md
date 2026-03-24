@@ -1,11 +1,11 @@
-🚀 Système d’authentification API JWT avec Laravel & Vue.js SPA
-📌 Présentation
+# Système d’authentification API JWT avec Laravel & Vue.js SPA
+## Présentation
 
 Ce projet est une implémentation complète d’un système d’authentification moderne basé sur des API REST sécurisées avec JWT, couplé à une Single Page Application (SPA) développée avec Vue.js et intégrée directement dans Laravel.
 
 👉 Il illustre un flux d’authentification end-to-end, du backend jusqu’au frontend.
 
-🧾 Description
+### 🧾 Description
 
 L’objectif principal de ce projet est de démontrer :
 
@@ -13,7 +13,7 @@ La mise en place d’une authentification stateless avec JWT
 La sécurisation des endpoints API
 La communication sécurisée entre un backend Laravel et un frontend Vue.js
 Une architecture propre et scalable
-🎯 Objectifs
+### 🎯 Objectifs
 🔐 Implémenter une authentification JWT stateless
 🛡️ Sécuriser les routes API avec gestion des accès
 💻 Concevoir une SPA consommant des API sécurisées
