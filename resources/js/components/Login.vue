@@ -41,7 +41,7 @@ async function handleLogin() {
         password: password.value,
       }),
     });
-
+    console.log(user.data.token);
     auth.setUser(user);
     router.push('/');
   } catch (error) {

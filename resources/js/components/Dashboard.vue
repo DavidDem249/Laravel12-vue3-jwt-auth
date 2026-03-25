@@ -9,26 +9,26 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
-import { useAuthStore } from '@/stores/auth';
+    import { ref } from 'vue';
+    import { useRouter } from 'vue-router';
+    import { useAuthStore } from '@/stores/auth';
 
-const router = useRouter();
-const auth = useAuthStore();
+    const router = useRouter();
+    const auth = useAuthStore();
 
-const loading = ref(false);
+    const loading = ref(false);
 
-async function handleLogout() {
-  loading.value = true;
-  try {
-    await auth.logout();
-    router.push('/login');
-  } catch (error) {
-    alert('Logout failed.');
-  } finally {
-    loading.value = false;
-  }
-}
+    async function handleLogout() {
+        loading.value = true;
+        try {
+            await auth.logout();
+            router.push('/login');
+        } catch (error) {
+            alert('Logout failed.');
+        } finally {
+            loading.value = false;
+        }
+    }
 </script>
 
 <style scoped>
